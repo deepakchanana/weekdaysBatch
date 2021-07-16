@@ -18,6 +18,7 @@ public class Base
 		// browser open + url hit + maximize
        driver=new ChromeDriver();
 		pr=PropertiesFile.loadProperties("../YTFramework/Object.properties");
+	  System.out.println("changes ");
 	}
 	@AfterMethod
 	public void close()
